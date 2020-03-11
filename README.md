@@ -3,21 +3,26 @@
 ## Dependencies
 
 ```
-python3 -V
+python3 --version
 
 >>> 3.5.0 and above
 ```
 
 ```
-pip3 install numpy
-pip3 install scipy
-pip3 install mayavi
-pip3 install PyQt5
+pip3 install --upgrade numpy
+pip3 install --upgrade scipy
+pip3 install --upgrade mayavi
+pip3 install --upgrade PyQt5
 ```
 
-## Visualisation
+## Orbital Visualisation
+> **n**: Principal Quantum Number
+>
+> **l**: Angular Momentum Quantum Number
+>
+> **m**: Magnetic Quantum Number
 
-| n | l | m | 3D View | Section |
+| n | l | m | 3D View | Section View |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | 0 | 0 | <img src="figs/3dView/3d_0.png" height=auto width=auto> | <img src="figs/SectionView/Sec_0.png" height=auto width=auto> |
 | 2 | 0 | 0 | <img src="figs/3dView/3d_1.png" height=auto width=auto> | <img src="figs/SectionView/Sec_1.png" height=auto width=auto> |
